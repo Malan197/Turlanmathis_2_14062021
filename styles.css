@@ -1,12 +1,21 @@
 @font-face {
-    font-family: "Raleway", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    src: url("font/static/Raleway-Black.ttf");
-    src: url("font/Raleway-VariableFont_wght.ttf");
-    src: url("font/Raleway-Italic-VariableFont_wght.ttf");
+    font-family: "Raleway";
+    src: url("font/Raleway-Regular.ttf"),
+         url("font/Raleway-ExtraBold.ttf"),
+         url("font/Raleway-ExtraLight.ttf"),
+         url("font/Raleway-Heavy.ttf"),
+         url("font/Raleway-Light.ttf"),
+         url("font/Raleway-Medium.ttf"),
+         url("font/Raleway-Regular.ttf"),
+         url("font/Raleway-Bold.ttf"),
+         url("font/Raleway-SemiBold.ttf"),
+         url("font/Raleway-Thin.ttf");
+    font-weight: normal;
+    font-style: normal;
 }
 
 #bloc_page {
-    font-family: "Raleway", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Raleway", serif, sans-serif;
     width: auto;
     margin: auto;
 }
@@ -14,6 +23,8 @@
 header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
+    font-weight: bold;
 }
 
 ul li {
@@ -51,18 +62,19 @@ header a:hover {
 
 #section_recherche p{
     font-size: 16px;
+    font-weight: normal;
 }
 
-#gps_logo {
-    width: 45px;
-    height: 45px;
-    background-color: rgb(211, 211, 211);
-    border-radius: 20px 0 0 20px;
-    padding: 3px 0 3px 0;
-    border-top: black solid 1px;
-    border-bottom: black solid 1px;
-    border-left: black solid 1px;
+.fa-map-marker-alt {
+    background-color: #F2F2F2;
+    border-top: #F2F2F2 solid 1px;
+    border-bottom: #F2F2F2 solid 1px;
+    border-left: #F2F2F2 solid 1px;
     border-right: none;
+    font-size: 19px;
+    padding: 16px;
+    border-radius: 20px 0 0 20px;
+
 }
 
 #search_button {
@@ -71,10 +83,11 @@ header a:hover {
     text-decoration: none;
     padding: 16.6px 16px 16px 16px;
     border-radius: 0 20px 20px 0;
-    border-top: black solid 1px;
-    border-bottom: black solid 1px;
+    border-top: #F2F2F2 solid 1px;
+    border-bottom: #F2F2F2 solid 1px;
     border-left: none;
-    border-right: black solid 1px;
+    border-right: #F2F2F2 solid 1px;
+    font-weight: bold;
 }
 
 #search_button:hover {
@@ -85,10 +98,10 @@ input {
     padding-top: 15px;
     padding-bottom: 15px;
     font-weight: bold;
-    border-top: black solid 1px;
-    border-bottom: black solid 1px;
+    border-top: #F2F2F2 solid 1px;
+    border-bottom: #F2F2F2 solid 1px;
     border-left: none;
-    border-right: none;
+    border-right: #F2F2F2 solid 1px;
     padding-left: 20px;
     font-size: 18px;
 }
@@ -96,15 +109,42 @@ input {
 #barre_recherche {
     display: flex;
     align-items: center;
-    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 #filtres ul li {
     display: inline-block;
+    margin-right: 20px;
+    margin-left: -35px;
+}
+
+#filtres ul li a {
+    border: solid rgb(201, 201, 201) 1px;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-right: 15px;
+}
+
+#filtres {
+    margin-bottom: 50px;
+}
+
+li i {
+    background-color: #DEEBFF;
+    color: #0065FC;
+    padding: 10px 15px 10px 15px;
+    border-radius: 100%;
+    margin-right: 10px;
 }
 
 a {
     text-decoration: none;
+}
+
+#info {
+    margin-bottom: 30px;
 }
 
 .photo1 {
@@ -150,6 +190,11 @@ a {
     border-radius: 20px;
 }
 
+#hebergements h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
 #hebergements a {
     height: 150px;
     width: 150px;
@@ -158,8 +203,8 @@ a {
 footer {
     background-color: #F2F2F2;
     display: flex;
-    justify-content: space-evenly;
-    font-size: 16px;
+    font-size: 14px;
+    font-family: Arial;
 }
 
 footer ul li a {
@@ -167,7 +212,8 @@ footer ul li a {
 }
 
 footer ul li {
-    padding-bottom: 10px;;
+    padding-bottom: 10px;
+    padding-right: 250px;
 }
 
  #filtres ul li a {
@@ -182,8 +228,15 @@ footer ul li {
     font-size: 20px;
 }
 
-.blue-star {
-    color:rgb(0, 238, 255);
-    font-size: 20px;
-    margin-top: -15px;
-    }
+.fa-star {
+    color: #0065FC;
+}
+
+.fa-info {
+    color: #0065FC;
+    border: rgb(201, 201, 201) solid 1px;
+    padding: 7px 11px 7px 11px;
+    border-radius: 100%;
+    font-size: 13px;
+    margin-right: 5px;
+}
