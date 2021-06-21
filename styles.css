@@ -55,7 +55,7 @@ header a:hover {
     height: 7%;
 }
 
-#section_recherche h1{
+#section_recherche h2{
     font-size: 22px;
     margin-bottom: -10px;
 }
@@ -104,6 +104,7 @@ input {
     border-right: #F2F2F2 solid 1px;
     padding-left: 20px;
     font-size: 18px;
+    background-color: white;
 }
 
 #barre_recherche {
@@ -151,35 +152,138 @@ a {
     margin-bottom: 30px;
 }
 
-#hebergements {
+#hebergements_container{
     background-color: #F2F2F2;
     padding: 20px;
     border-radius: 20px;
-    max-width: 60%;
+    max-width: 59%;
     max-height: auto;
 }
 
-#hebergements h1 {
+.conteneur_hebergements {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.banniere {
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: white;
+    margin-bottom: 50px;
+    color: black;
+    box-shadow: #bebebe 0 0 10px;
+}
+
+.cannebiere {
+    width: 250px;
+    height: 120px;
+    object-fit: cover;
+    border: 3px solid white;
+    border-radius: 20px 20px 0 0;
+}
+
+.nom_hebergement {
+    margin-left: 15px;
+    margin-top: -18px;
+}
+
+.prix {
+    margin-left: 15px;
+    margin-top: -12px;
+}
+
+.stars{
+    margin-left: 15px;
+    margin-top: -8px;
+    padding-bottom: 12px;
+    font-size: 14px;
+}
+
+#lespluspopulaires_conteneur {
+    background-color: #F2F2F2;
+    min-width: 33%;
+    border-radius: 20px;
+    padding: 20px; 
+    max-width: 572.28px;  
+}
+
+.conteneur_lespluspopulaires {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banniere_2 {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: #bebebe 0 0 10px;
+    margin-bottom: 25px;
+    width: 482.27px;
+}
+
+.nomprix_stars {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 332.28px;
+}
+
+.stars_lespluspopulaires {
+    margin-left: 15px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.populaire {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: solid white 5px;
+    border-radius: 20px 0 0 20px;
+}
+
+.titre_stars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -18px;
+}
+
+.titre_stars i {
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.nom_prix {
+    color: black;
+    padding-left: 20px;
+}
+
+.nom_prix h3 {
+    margin-bottom: -10px;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+article h2 {
     font-weight: bold;
     font-size: 1.5em;
     padding-left: 30px;
 }
 
-.flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-}
-
-.flex img {
-    width: 100%;
-    height: 100%;
-    border: solid white 5px;    
-}
-.stars {
-    padding-left: 15px;
-    margin-bottom: -10px;
+h4 {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-left: 30px;
+    margin-top: 0px;
 }
 
 footer {
