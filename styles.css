@@ -22,7 +22,7 @@
 
 #bloc_page {
     font-family: "Raleway", serif, sans-serif;
-    width: 100%;
+    width: auto;
 }
 
 header {
@@ -173,13 +173,17 @@ a {
     flex-wrap: wrap;
 }
 
-.banniere {
+.banniere a {
     border-radius: 20px;
-    border: 1px solid white;
-    background-color: white;
-    margin-bottom: 50px;
     color: black;
+}
+
+.banniere {
+    background-color: white;
     box-shadow: #bebebe 0 0 10px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
 }
 
 .cannebiere {
@@ -209,7 +213,7 @@ a {
 
 #lespluspopulaires_conteneur {
     background-color: #F2F2F2;
-    width: 30%;
+    width: auto;
     border-radius: 20px;
     padding: 20px; 
 }
@@ -221,14 +225,15 @@ a {
     align-items: center;
 }
 
-.banniere_2 {
+.banniere_2 a {
     display: flex;
+    flex-direction: row;
     background-color: white;
     border-radius: 20px;
     margin: 20px;
     box-shadow: #bebebe 0 0 10px;
     margin-bottom: 25px;
-    width: 482.27px;
+    width: 450px;
 }
 
 .nomprix_stars {
@@ -251,6 +256,8 @@ a {
     border: solid white 5px;
     border-radius: 20px 0 0 20px;
 }
+
+
 
 .titre_stars {
     display: flex;
