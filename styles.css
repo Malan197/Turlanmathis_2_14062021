@@ -14,10 +14,15 @@
     font-style: normal;
 }
 
+@media all and (max-width: 1024px) {
+    #bloc_page {
+        width: 100%;
+    }
+}
+
 #bloc_page {
     font-family: "Raleway", serif, sans-serif;
-    width: auto;
-    margin: auto;
+    width: 100%;
 }
 
 header {
@@ -292,6 +297,7 @@ footer {
     display: flex;
     font-size: 14px;
     font-family: Arial;
+    width: 100%;
 }
 
 footer ul li a {
@@ -331,6 +337,7 @@ footer ul li {
 .activites_conteneur {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 60px;
     margin-left: 0px;
 }
