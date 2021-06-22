@@ -146,6 +146,8 @@ li i {
 
 a {
     text-decoration: none;
+    border-radius: 0 0 20px 20px;
+    color: black;
 }
 
 #info {
@@ -202,10 +204,9 @@ a {
 
 #lespluspopulaires_conteneur {
     background-color: #F2F2F2;
-    min-width: 33%;
+    width: 30%;
     border-radius: 20px;
     padding: 20px; 
-    max-width: 572.28px;  
 }
 
 .conteneur_lespluspopulaires {
@@ -327,4 +328,91 @@ footer ul li {
     margin-right: 5px;
 }
 
-/*je ne comprends pas/*
+.activites_conteneur {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-left: 0px;
+}
+
+.activites_bloc1, .activites_bloc2, .activites_bloc3 {
+    position: relative;
+    margin-right: 40px;
+}
+
+.activites_bloc4 {
+    position: relative;
+}
+
+.vieuxporttext, .pomeguestext, .frioultext, .calanquestext, .lagardetext, .longchamptext {
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    padding: 20px;
+    font-weight: bold;
+    width: 310px;
+    border-radius: 0 0 20px 20px;
+    color: black;
+}
+
+.vieuxport {
+    width: 350px;
+    height: 438px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: #bebebe 0 0 10px;
+}
+
+.pomeguesfrioul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.pomegues {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: #bebebe 0 0 10px;
+}
+
+.frioul {
+    width: 350px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: #bebebe 0 0 10px;
+}
+
+.calanques {
+    width: 350px;
+    height: 438px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: #bebebe 0 0 10px;
+}
+
+.lagardelongchamp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.lagarde {
+    width: 350px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: #bebebe 0 0 10px;
+}
+
+.longchamp {
+    width: 350px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: #bebebe 0 0 10px;
+}
