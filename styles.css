@@ -164,7 +164,7 @@ a {
     padding: 20px;
     border-radius: 20px;
     max-width: 59%;
-    max-height: auto;
+    margin-bottom: 30px;
 }
 
 .conteneur_hebergements {
@@ -183,7 +183,6 @@ a {
     box-shadow: #bebebe 0 0 10px;
     border-radius: 20px;
     margin-bottom: 50px;
-
 }
 
 .cannebiere {
@@ -346,12 +345,12 @@ footer ul li {
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 60px;
-    margin-left: 0px;
 }
 
-.activites_bloc1, .activites_bloc2, .activites_bloc3 {
+.activites_bloc1, .activites_bloc2, .activites_bloc3, .activites_bloc4 {
     position: relative;
-    margin-right: 40px;
+    margin-right: 69px;
+    margin-bottom: 50px;
 }
 
 .activites_bloc4 {
@@ -370,8 +369,8 @@ footer ul li {
 }
 
 .vieuxport {
-    width: 350px;
-    height: 438px;
+    width: 310px;
+    height: 461px;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: #bebebe 0 0 10px;
@@ -385,23 +384,23 @@ footer ul li {
 }
 
 .pomegues {
-    width: 350px;
-    height: 250px;
+    width: 310px;
+    height: 240px;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: #bebebe 0 0 10px;
 }
 
 .frioul {
-    width: 350px;
-    height: 150px;
+    width: 310px;
+    height: 180px;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: #bebebe 0 0 10px;
 }
 
 .calanques {
-    width: 350px;
+    width: 310px;
     height: 438px;
     object-fit: cover;
     border-radius: 20px;
@@ -416,16 +415,16 @@ footer ul li {
 }
 
 .lagarde {
-    width: 350px;
-    height: 180px;
+    width: 310px;
+    height: 195px;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: #bebebe 0 0 10px;
 }
 
 .longchamp {
-    width: 350px;
-    height: 220px;
+    width: 310px;
+    height: 210px;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: #bebebe 0 0 10px;
