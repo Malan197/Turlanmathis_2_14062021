@@ -14,9 +14,9 @@
     font-style: normal;
 }
 
-@media all and (max-width: 1024px) {
-    #bloc_page {
-        width: 100%;
+@media all and (max-device-width: 480px) {
+    header {
+        width: auto;
     }
 }
 
@@ -306,6 +306,15 @@ footer {
     width: 100%;
 }
 
+@media all and (max-device-width: 480px) {
+    footer {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+    }
+}
+
 footer ul li a {
     color: black;
 }
@@ -355,8 +364,11 @@ footer ul li {
     border-radius: 20px;
 }
 
-.activites_bloc4 {
-    position: relative;
+@media all and (max-device-width: 480px) {
+    .activites_bloc1, .activites_bloc2, .activites_bloc3, .activites_bloc4 {
+        margin-right: 0px;
+        border-radius: 90%;
+    }
 }
 
 .vieuxporttext, .pomeguestext, .frioultext, .calanquestext, .lagardetext, .longchamptext {
@@ -368,6 +380,17 @@ footer ul li {
     width: 270px;
     border-radius: 0 0 20px 20px;
     color: black;
+}
+
+@media all and (max-device-width: 480px) {
+    .vieuxporttext, .pomeguestext, .frioultext, .calanquestext, .lagardetext, .longchamptext {
+        font-size: 40px;
+        width: 720px;
+        padding: 40px;
+        font-weight: bold;
+        border-radius: 0 0 50px 50px;
+        box-shadow: #bebebe 0 0 10px;
+    }
 }
 
 .vieuxport {
@@ -430,4 +453,20 @@ footer ul li {
     object-fit: cover;
     border-radius: 20px;
     box-shadow: #bebebe 0 0 10px;
+}
+
+@media all and (max-device-width: 480px) {
+    .vieuxport, .pomegues, .frioul, .calanques, .lagarde, .longchamp {
+        width: 800px;
+        height: 450px;
+        border-radius: 50px;
+    }
+}
+
+@media all and (max-device-width: 480px) {
+    #activites {
+        font-size: 60px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
 }
