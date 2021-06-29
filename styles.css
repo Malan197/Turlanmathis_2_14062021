@@ -439,6 +439,11 @@ footer ul li {
 
 
 @media all and (max-device-width: 480px) {
+    #bloc_page {
+        width: 1020px;
+        margin-left: -10px;
+    }
+
     header {
         width: auto;
     }
@@ -483,7 +488,7 @@ footer ul li {
     }
 
     footer {
-        width: auto;
+        width: 100%;
         display: flex;
         flex-direction: column;
         font-size: 30px;
@@ -545,6 +550,7 @@ footer ul li {
         margin-left: -40px;
         border: solid white 7px;
         border-radius: 50px;
+        margin-bottom: 40px;
     }
 
     .cannebiere {
@@ -574,6 +580,7 @@ footer ul li {
         align-items: baseline;
         margin-left: 50px;
         margin-bottom: -20px;
+        margin-top: -70px;
     }
 
     .info i {
@@ -595,12 +602,41 @@ footer ul li {
     }
 
     #filtres ul li {
-        font-size: 70px;
+        font-size: 45px;
         margin-left: 20px;
+        margin-bottom: 90px;
+    }
+
+    .filtresp {
+        margin-bottom: -30px;
     }
 
     #filtres ul li a {
-        font-size: 70px;
+        font-size: 45px;
+        padding: 35px;
+        border-radius: 100px;
+        margin-bottom: 90px;
+    }
+
+    .fa-map-marker-alt {
+        font-size: 45px;
+        padding: 40px;
+        border-radius: 50px 0 0 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    input {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        font-weight: bold;
+        border-top: #f2f2f2 solid 1px;
+        border-bottom: #f2f2f2 solid 1px;
+        border-left: none;
+        border-right: #F2F2F2 solid 1px;
+        padding-left: 40px;
+        font-size: 50px;
+        background-color: white;
     }
 
 }
