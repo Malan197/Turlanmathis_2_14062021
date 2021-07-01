@@ -447,7 +447,7 @@ footer ul li {
 
 @media all and (max-device-width: 480px) {
     #bloc_page {
-        width: 1150px;
+        width: 1100px;
         margin-left: -10px;
     }
 
@@ -468,6 +468,15 @@ footer ul li {
 
     #lespluspopulaires_conteneur h2 {
         font-size: 60px;
+    }
+
+    #lespluspopulaires_conteneur h3 {
+        font-size: 47px;
+    }
+
+    #lespluspopulaires_conteneur p {
+        font-size: 38px;
+        margin-top: 20px;
     }
 
     .titre_stars i {
@@ -502,7 +511,7 @@ footer ul li {
     }
 
     .banniere_2 a {
-        min-width: 850px;
+        min-width: 950px;
         min-height: 370px;
         border-radius: 50px;
         border: solid white 7px;
@@ -522,8 +531,8 @@ footer ul li {
         border-radius: 50px 0 0 50px;
     }
 
-    a h3 {
-        font-size: 65px;
+    #hebergements_container a h3 {
+        font-size: 45px;
     }
 
     a p {
@@ -531,7 +540,7 @@ footer ul li {
     }
 
     .stars_lespluspopulaires {
-        font-size: 30px;
+        font-size: 35px;
         margin-bottom: 20px;
     }
 
@@ -561,20 +570,20 @@ footer ul li {
     }
 
     .cannebiere {
-        width: 850px;
-        height: 300px;
+        width: 950px;
+        height: 330px;
         border-radius: 50px 50px 0 0;
     }
 
     .prix p {
         margin-top: -30px;
-        font-size: 45px;
+        font-size: 20px;
         padding-bottom: 20px;
         margin-left: 17px;
     }
 
     .stars {
-        font-size: 20px;
+        font-size: 15px;
         margin-left: 30px;
     }
 
@@ -667,7 +676,7 @@ footer ul li {
 
     #section_recherche h2 {
         margin-left: 50px;
-        font-size: 50px;
+        font-size: 53px;
     }
 
     #section_recherche p {
