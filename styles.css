@@ -447,7 +447,7 @@ footer ul li {
 
 @media all and (max-device-width: 480px) {
     #bloc_page {
-        width: 1105px;
+        width: 1150px;
         margin-left: -10px;
     }
 
@@ -568,13 +568,13 @@ footer ul li {
 
     .prix p {
         margin-top: -30px;
-        font-size: 15px;
+        font-size: 20px;
         padding-bottom: 20px;
         margin-left: 17px;
     }
 
     .stars {
-        font-size: 13px;
+        font-size: 15px;
         margin-left: 30px;
     }
 
