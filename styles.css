@@ -376,8 +376,9 @@ footer ul li {
 }
 
 .vieuxport {
-    width: 310px;
-    height: 461px;
+    max-width: 310px;
+    min-height: 461px;
+    max-height: 461px;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: #cecece 0 0 30px;
@@ -484,14 +485,14 @@ footer ul li {
     }
 
     .vieuxport, .pomegues, .frioul, .calanques, .lagarde, .longchamp {
-        width: 850px;
+        width: 950px;
         height: 450px;
         border-radius: 50px;
     }
 
     .vieuxporttext, .pomeguestext, .frioultext, .calanquestext, .lagardetext, .longchamptext {
         font-size: 40px;
-        width: 770px;
+        width: 870px;
         padding: 40px;
         font-weight: bold;
         border-radius: 0 0 50px 50px;
@@ -532,11 +533,7 @@ footer ul li {
     }
 
     #hebergements_container a h3 {
-        font-size: 45px;
-    }
-
-    a p {
-        font-size: 45px;
+        font-size: 47px;
     }
 
     .stars_lespluspopulaires {
@@ -577,13 +574,13 @@ footer ul li {
 
     .prix p {
         margin-top: -30px;
-        font-size: 20px;
+        font-size: 38px;
         padding-bottom: 20px;
         margin-left: 17px;
     }
 
     .stars {
-        font-size: 15px;
+        font-size: 35px;
         margin-left: 30px;
     }
 
@@ -777,55 +774,6 @@ footer ul li {
         margin-right: 30px;
         margin-bottom: 50px;
         border-radius: 20px;
-    }
-
-    .vieuxport, .calanques {
-        width: 285px;
-        height: 405px;
-        position: relative;
-    }
-
-    .pomegues, .frioul, .lagarde, .longchamp {
-        width: 285px;
-    }
-
-    .pomegues {
-        height: 185px;
-    }
-
-    .frioul {
-        height: 160px;
-    }
-
-    .lagarde {
-        height: 160px;
-    }
-
-    .longchamp {
-        height: 160px;
-    }
-
-    .vieuxporttext, .calanquestext {
-        position: absolute;
-        width: 245px;
-        bottom: 38px;
-    }
-
-    .pomeguestext, .frioultext, .lagardetext, .longchamptext {
-        width: 245px;
-    }
-
-    .activites_conteneur {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .activites_bloc1, .activites_bloc3 {
-        margin-bottom: 0;
-    }
-
-    .pomeguesfrioul {
-        justify-content: flex-start;
     }
 
 }
