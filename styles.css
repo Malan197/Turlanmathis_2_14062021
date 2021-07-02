@@ -376,9 +376,8 @@ footer ul li {
 }
 
 .vieuxport {
-    max-width: 310px;
-    min-height: 461px;
-    max-height: 461px;
+    width: 310px;
+    height: 461px;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: #cecece 0 0 30px;
