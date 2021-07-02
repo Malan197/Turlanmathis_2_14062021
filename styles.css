@@ -757,7 +757,7 @@ footer ul li {
 
 }
 
-@media all and (min-device-width: 1024px) and (max-device-width: 1400px) {
+@media all and (min-device-width: 1024px) and (max-device-width: 1480px) {
     #hebergements_container {
         width: 60%;
         height: auto;
