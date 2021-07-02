@@ -448,7 +448,6 @@ footer ul li {
 @media all and (max-device-width: 480px) {
     #bloc_page {
         width: 1100px;
-        margin-left: -10px;
     }
 
     header {
@@ -742,6 +741,18 @@ footer ul li {
         font-size: 50px;
         font-weight: bold;
         padding-top: 50px;
+    }
+
+    article {
+        display: flex;
+    }
+
+    article #hebergements_container {
+        order: 2;
+    }
+
+    article #lespluspopulaires_conteneur {
+        order: 1;
     }
 
 }
