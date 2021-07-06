@@ -35,7 +35,7 @@ header ul li {
 }
 
 header a {
-    color: #0065FC;
+    color: black;
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -134,12 +134,44 @@ input {
     align-items: center;
 }
 
-li i {
+#filtres .fa-money-bill-wave {
     background-color: #DEEBFF;
+    object-fit: fill;
     color: #0065FC;
-    padding: 10px 15px 10px 15px;
+    padding: 11px 10px 12px 10px;
     border-radius: 100%;
     margin-right: 10px;
+    margin-left: -2px;
+}
+
+#filtres .fa-child {
+    background-color: #DEEBFF;
+    object-fit: fill;
+    color: #0065FC;
+    padding: 11px 15px 12px 15px;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: -2px;
+}
+
+#filtres .fa-heart {
+    background-color: #DEEBFF;
+    object-fit: fill;
+    color: #0065FC;
+    padding: 11px 15px 12px 15px;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: -2px;
+}
+
+#filtres .fa-dog {
+    background-color: #DEEBFF;
+    object-fit: fill;
+    color: #0065FC;
+    padding: 11px 15px 12px 15px;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: -2px;
 }
 
 a {
@@ -623,7 +655,7 @@ footer ul li {
     }
 
     #filtres ul li a {
-        font-size: 55px;
+        font-size: 50px;
         padding: 35px;
         border-radius: 100px;
         margin-bottom: 90px;
@@ -724,7 +756,7 @@ footer ul li {
     }
 
     .activiteshebergements ul li a {
-        color: #0065FC;
+        color: black;
         border-bottom: solid 8px #f2f2f2;
         padding: 40px;
         padding-right: 150px;
@@ -752,6 +784,54 @@ footer ul li {
 
     article #lespluspopulaires_conteneur {
         order: 1;
+    }
+
+    li i {
+        background-color: #DEEBFF;
+        color: #0065FC;
+        padding: 10px 15px 10px 15px;
+        border-radius: 50px;
+        margin-right: 10px;
+    }
+
+    #filtres .fa-money-bill-wave {
+        background-color: #DEEBFF;
+        object-fit: fill;
+        color: #0065FC;
+        padding: 36px 28px 40px 28px;
+        border-radius: 100%;
+        margin-right: 10px;
+        margin-left: -35px;
+    }
+    
+    #filtres .fa-child {
+        background-color: #DEEBFF;
+        object-fit: fill;
+        color: #0065FC;
+        padding: 36px 40px 40px 40px;
+        border-radius: 100%;
+        margin-right: 10px;
+        margin-left: -35px;
+    }
+    
+    #filtres .fa-heart {
+        background-color: #DEEBFF;
+        object-fit: fill;
+        color: #0065FC;
+        padding: 36px 40px 40px 40px;
+        border-radius: 100%;
+        margin-right: 10px;
+        margin-left: -35px;
+    }
+    
+    #filtres .fa-dog {
+        background-color: #DEEBFF;
+        object-fit: fill;
+        color: #0065FC;
+        padding: 36px 40px 40px 40px;
+        border-radius: 100%;
+        margin-right: 10px;
+        margin-left: -35px;
     }
 
 }
@@ -784,6 +864,19 @@ footer ul li {
         margin-bottom: 50px;
         border-radius: 20px;
     }
+
+}
+
+@media all and (min-device-width: 768px) and (max-device-width: 1000px) {
+    #bloc_page {
+        width: 1220px;
+    }
+
+
+    #hebergements_container {
+        width: 600px;
+    }
+
 
 }
 
