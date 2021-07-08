@@ -884,7 +884,7 @@ footer ul li {
 
 }
 
-@media all and (min-device-width: 720px) and (max-device-width: 768px) {
+@media all and (min-device-width: 720px) and (max-device-width: 896px) {
     #bloc_page {
         width: 1240px;
     }
