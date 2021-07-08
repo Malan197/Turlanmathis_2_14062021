@@ -41,8 +41,8 @@ header a {
 }
 
 header a:hover {
-    color: #003f9c;
-    border-top: #003f9c solid;
+    color: #0065FC;
+    border-top: #0065FC solid;
     padding-top: 21px;
     padding-right: 30px;
     padding-left: 30px;
@@ -59,7 +59,7 @@ header a:hover {
 }
 
 .fa-map-marker-alt {
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     border-top: #F2F2F2 solid 1px;
     border-bottom: #F2F2F2 solid 1px;
     border-left: #F2F2F2 solid 1px;
@@ -258,9 +258,9 @@ a {
 }
 
 .banniere_2 a {
+    background-color: white;
     display: flex;
     flex-direction: row;
-    background-color: white;
     border-radius: 20px;
     margin: 20px;
     box-shadow: #cecece 0 0 30px;
@@ -476,7 +476,7 @@ footer ul li {
     display: none;
 }
 
-@media all and (max-device-width: 720px) {
+@media all and (min-device-width: 375px) and (max-device-width :667px) {
     #bloc_page {
         width: 1100px;
     }
@@ -766,6 +766,7 @@ footer ul li {
 
     .activiteshebergements ul li a:hover {
         border-bottom: solid 8px #0065fc;
+        color: #0065FC;
     }
 
     h4 {
@@ -836,19 +837,23 @@ footer ul li {
 
 }
 
-@media all and (min-device-width: 1024px) and (max-device-width: 1480px) {
+@media all and (min-device-width: 1024px) and (max-device-width: 1420px) {
+    #bloc_page {
+        width: 1240px;
+    }
+
     #hebergements_container {
-        width: 60%;
+        width: 55%;
         height: auto;
     }
 
     .banniere {
-        width: 30%;
+        width: 180px;
         height: auto;
     }
 
     .cannebiere {
-        width: 233px;
+        width: 173px;
     }
 
     .banniere_2 a {
@@ -860,24 +865,105 @@ footer ul li {
     }
 
     .activites_bloc1, .activites_bloc2, .activites_bloc3 {
-        margin-right: 30px;
+        margin-right: 20px;
         margin-bottom: 50px;
         border-radius: 20px;
     }
 
-}
-
-@media all and (min-device-width: 768px) and (max-device-width: 1000px) {
-    #bloc_page {
-        width: 1220px;
+    .vieuxport, .pomegues, .frioul, .calanques, .lagarde, .longchamp {
+        width: 282.5px;
     }
 
+    .vieuxporttext, .pomeguestext, .frioultext, .calanquestext, .lagardetext, .longchamptext {
+        width: 244px;
+    }
+
+    .activites_conteneur {
+        justify-content: center;
+    }
+
+}
+
+@media all and (min-device-width: 720px) and (max-device-width: 768px) {
+    #bloc_page {
+        width: 1240px;
+    }
 
     #hebergements_container {
         width: 600px;
     }
 
+    article #hebergements_container {
+        order: 2;
+    }
 
+    article #lespluspopulaires_conteneur {
+        order: 1;
+    }
+
+    #lespluspopulaires_conteneur {
+        background-color: #F2F2F2;
+        width: 1180px;
+        height: auto;
+        border-radius: 20px;
+        padding: 20px;
+        overflow: scroll;
+        margin-bottom: 50px;
+    }
+
+    .titre_stars {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: -18px;
+    }
+
+    article h2 {
+        font-weight: bold;
+        font-size: 1.5em;
+        padding-left: 30px;
+        margin-right: 20px;
+    }
+
+    .conteneur_lespluspopulaires {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #hebergements_container {
+        min-width: 1180px;
+        background-color: #F2F2F2;
+        padding: 20px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+
+    .conteneur_hebergements {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow: scroll;
+        flex-wrap: nowrap;
+    }
+
+    .banniere {
+        margin-right: 30px;
+    }
+
+    .activites_conteneur {
+        width: 1180px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        margin-bottom: 60px;
+        overflow: scroll;
+    }
+
+    .vieuxport, .pomegues, .frioul, .calanques, .lagarde, .longchamp {
+        box-shadow: rgb(236, 236, 236) 5px 5px 10px;
+    }
 }
 
 
