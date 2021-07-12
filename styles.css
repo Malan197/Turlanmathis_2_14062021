@@ -935,6 +935,10 @@ footer ul li {
         align-items: center;
     }
 
+    .cannebiere {
+        width: 320px;
+    }
+
     #hebergements_container {
         min-width: 1180px;
         background-color: #F2F2F2;
@@ -961,6 +965,7 @@ footer ul li {
         justify-content: space-around;
         flex-wrap: wrap;
         margin-bottom: 60px;
+        margin-left: 20px;
     }
 
     .activites_bloc1, .activites_bloc2, .activites_bloc3, .activites_bloc4 {
@@ -970,8 +975,12 @@ footer ul li {
     }
 
     .vieuxport, .pomegues, .frioul, .calanques, .lagarde, .longchamp {
-        width: 250px;
+        width: 270px;
         height: 100%;
+    }
+
+    .vieuxporttext, .pomeguestext, .frioultext, .calanquestext, .lagardetext, .longchamptext {
+        width: 230px;
     }
 
     .pomegues {
