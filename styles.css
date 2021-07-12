@@ -907,8 +907,11 @@ footer ul li {
         height: auto;
         border-radius: 20px;
         padding: 20px;
-        overflow: scroll;
         margin-bottom: 50px;
+    }
+
+    .banniere_2 a {
+        width: 350px;
     }
 
     .titre_stars {
@@ -943,26 +946,36 @@ footer ul li {
     .conteneur_hebergements {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        overflow: scroll;
-        flex-wrap: nowrap;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     .banniere {
         margin-right: 30px;
+        margin-left: 30px;
     }
 
     .activites_conteneur {
         width: 1180px;
         display: flex;
-        justify-content: flex-start;
-        flex-wrap: nowrap;
+        justify-content: space-around;
+        flex-wrap: wrap;
         margin-bottom: 60px;
-        overflow: scroll;
+    }
+
+    .activites_bloc1, .activites_bloc2, .activites_bloc3, .activites_bloc4 {
+        margin-right: 0px;
+        width: 250px;
+        height: auto;
     }
 
     .vieuxport, .pomegues, .frioul, .calanques, .lagarde, .longchamp {
-        box-shadow: rgb(236, 236, 236) 5px 5px 10px;
+        width: 250px;
+        height: 100%;
+    }
+
+    .pomegues {
+        height: 184px;
     }
 }
 
