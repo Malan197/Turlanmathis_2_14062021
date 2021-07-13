@@ -481,29 +481,90 @@ footer ul li {
     display: none;
 }
 
-.headermobile {
-    display: none;
-}
-
 @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
-        #bloc_page {
+    #bloc_page {
         width: 1155px;
         margin-left: -12px;
     }
 
     header {
-        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-bottom: 100px;
     }
 
-    #activites {
+    header .logo_reservia {
+        width: auto;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    header ul li a[href="#hebergements"] {
+        font-size: 50px;
+        margin-left: -300px;
+        border-bottom: solid #f2f2f2 5px;
+        padding-bottom: 50px;
+        padding-left: 277px;
+        padding-right: 169px;
+        border-radius: 0;
+    }
+
+    header ul li a[href="#activites"] {
+        font-size: 50px;
+        border-bottom: solid #f2f2f2 5px;
+        padding-bottom: 50px;
+        padding-left: 197px;
+        padding-right: 157px;
+        border-radius: 0;
+    }
+
+    header ul li a:hover {
+        font-size: 50px;
+        margin-left: none;
+        border-bottom: solid #f2f2f2 5px;
+        padding-bottom: 50px;
+        padding-left: none;
+        padding-right: none;
+        border-radius: 0;
+        color: #0065FC;
+        border-top: none;
+        border-bottom: #0065FC solid 5px;
+        padding-top: none;
+    }
+
+    header p {
+        font-size: 50px;
+        margin-left: 473px;
+        margin-top: 90px;
+    }
+
+    header ul {
+        order: 2;
+        display: flex;
+        margin-left: 60px;
+    }
+
+    header p {
+        order: 1;
+    }
+
+    .activites {
         font-size: 60px;
         font-weight: bold;
+        margin-left: 30px;
+    }
+
+    #article {
         margin-left: 20px;
     }
 
-    aside, #article {
+    aside {
         width: 100%;
         border-radius: 0;
+        margin-right: -40px;
     }
 
     aside h2 {
@@ -723,14 +784,6 @@ footer ul li {
         max-width: 90%;
     }
 
-    header {
-        display: none;
-    }
-
-    .headermobile {
-        display: initial;
-    }
-
     .headerlogo {
         width: 80%;
         margin-left: 50px;
@@ -771,11 +824,6 @@ footer ul li {
         padding-right: 150px;
         padding-left: 150px;
         border-radius: 0;
-    }
-
-    .activiteshebergements ul li a:hover {
-        border-bottom: solid 8px #0065fc;
-        color: #0065FC;
     }
 
     h4 {
