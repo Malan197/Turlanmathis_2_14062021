@@ -322,13 +322,13 @@ a {
     margin-bottom: -10px;
 }
 
-article {
+section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-article h2 {
+section h2 {
     font-weight: bold;
     font-size: 1.5em;
     padding-left: 30px;
@@ -785,15 +785,15 @@ footer ul li {
         padding-top: 50px;
     }
 
-    article {
+    section {
         display: flex;
     }
 
-    article #hebergements_container {
+    section #hebergements_container {
         order: 2;
     }
 
-    article #lespluspopulaires_conteneur {
+    section #lespluspopulaires_conteneur {
         order: 1;
     }
 
@@ -921,11 +921,11 @@ footer ul li {
         width: 600px;
     }
 
-    article #hebergements_container {
+    section #hebergements_container {
         order: 2;
     }
 
-    article #lespluspopulaires_conteneur {
+    section #lespluspopulaires_conteneur {
         order: 1;
     }
 
@@ -949,7 +949,7 @@ footer ul li {
         margin-bottom: -18px;
     }
 
-    article h2 {
+    section h2 {
         font-weight: bold;
         font-size: 1.5em;
         padding-left: 30px;
