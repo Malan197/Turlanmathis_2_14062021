@@ -201,7 +201,7 @@ a {
     margin-left: 7px;
 }
 
-#hebergements_container{
+article {
     background-color: #F2F2F2;
     padding: 20px;
     border-radius: 20px;
@@ -245,14 +245,14 @@ a {
     margin-top: -12px;
 }
 
-.stars{
+.stars {
     margin-left: 15px;
     margin-top: -8px;
     padding-bottom: 12px;
     font-size: 14px;
 }
 
-#lespluspopulaires_conteneur {
+aside {
     background-color: #F2F2F2;
     width: auto;
     height: 100%;
@@ -501,20 +501,20 @@ footer ul li {
         margin-left: 20px;
     }
 
-    #lespluspopulaires_conteneur, #hebergements_container {
+    aside, article {
         width: 100%;
         border-radius: 0;
     }
 
-    #lespluspopulaires_conteneur h2 {
+    aside h2 {
         font-size: 60px;
     }
 
-    #lespluspopulaires_conteneur h3 {
+    aside h3 {
         font-size: 47px;
     }
 
-    #lespluspopulaires_conteneur p {
+    aside p {
         font-size: 38px;
         margin-top: 20px;
     }
@@ -571,7 +571,7 @@ footer ul li {
         border-radius: 50px 0 0 50px;
     }
 
-    #hebergements_container a h3 {
+    article a h3 {
         font-size: 47px;
     }
 
@@ -588,12 +588,12 @@ footer ul li {
         width: 400px;
     }
 
-    #hebergements_container {
+    article {
         min-width: 100%;
         background-color: white;
     }
 
-    #hebergements_container h2 {
+    article h2 {
         font-size: 60px;
     }
 
@@ -789,11 +789,11 @@ footer ul li {
         display: flex;
     }
 
-    section #hebergements_container {
+    section article {
         order: 2;
     }
 
-    section #lespluspopulaires_conteneur {
+    section aside {
         order: 1;
     }
 
@@ -861,7 +861,7 @@ footer ul li {
         margin-right: 17px;
     }
 
-    #hebergements_container {
+    article {
         width: 55%;
         height: auto;
     }
@@ -879,7 +879,7 @@ footer ul li {
         width: 387px;
     }
 
-    #lespluspopulaires_conteneur {
+    aside {
         padding: 17px;
     }
 
@@ -917,19 +917,19 @@ footer ul li {
         margin-right: 17px;
     }
 
-    #hebergements_container {
+    article {
         width: 600px;
     }
 
-    section #hebergements_container {
+    section article {
         order: 2;
     }
 
-    section #lespluspopulaires_conteneur {
+    section aside {
         order: 1;
     }
 
-    #lespluspopulaires_conteneur {
+    aside {
         background-color: #F2F2F2;
         width: 1180px;
         height: auto;
@@ -967,7 +967,7 @@ footer ul li {
         width: 320px;
     }
 
-    #hebergements_container {
+    article {
         min-width: 1180px;
         background-color: #F2F2F2;
         padding: 20px;
