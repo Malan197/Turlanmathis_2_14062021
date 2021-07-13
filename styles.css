@@ -63,7 +63,7 @@ header a:hover {
     height: 7%;
 }
 
-#section_recherche h2{
+nav h2{
     font-size: 22px;
     margin-bottom: -10px;
 }
@@ -640,7 +640,7 @@ footer ul li {
         font-size: 35px;
     }
 
-    #section_recherche .info p {
+    nav .info p {
         font-size: 45px;
         margin-left: 20px;
     }
@@ -710,17 +710,17 @@ footer ul li {
         border-radius: 40px;
     }
 
-    #section_recherche h2 {
+    nav h2 {
         margin-left: 50px;
         font-size: 53px;
     }
 
-    #section_recherche p {
+    nav p {
         margin-left: 50px;
         font-size: 35px;
     }
 
-    #section_recherche h2, p {
+    nav h2, p {
         max-width: 90%;
     }
 
