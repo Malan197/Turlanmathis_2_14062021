@@ -30,8 +30,18 @@ ul li {
 }
 
 header ul li {
+    font-weight: normal;
     display: inline-block;
     color: #0065FC;
+}
+
+header ul {
+    margin-left: 957px;
+}
+
+header p {
+    color: #0065FC;
+    margin-right: 17px;
 }
 
 header a {
@@ -842,6 +852,15 @@ footer ul li {
         width: 1240px;
     }
 
+    header ul {
+        margin-left: 700px;
+    }
+    
+    header p {
+        color: #0065FC;
+        margin-right: 17px;
+    }
+
     #hebergements_container {
         width: 55%;
         height: auto;
@@ -887,6 +906,15 @@ footer ul li {
 @media all and (min-device-width: 720px) and (max-device-width: 896px) {
     #bloc_page {
         width: 1240px;
+    }
+
+    header ul {
+        margin-left: 700px;
+    }
+    
+    header p {
+        color: #0065FC;
+        margin-right: 17px;
     }
 
     #hebergements_container {
