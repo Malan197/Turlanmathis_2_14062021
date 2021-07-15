@@ -346,6 +346,9 @@ footer {
     display: flex;
     font-size: 14px;
     width: 100%;
+    padding-right: 16px;
+    margin-left: -8px;
+    margin-bottom: -8px;
 }
 
 footer ul li a {
@@ -354,7 +357,7 @@ footer ul li a {
 
 footer ul li {
     padding-bottom: 10px;
-    padding-right: 250px;
+    width: 472px;
 }
 
  #filtres ul li a {
@@ -481,7 +484,7 @@ footer ul li {
     display: none;
 }
 
-@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+@media all and (min-width: 320px) and (max-width :425px) {
     #bloc_page {
         width: 1155px;
         margin-left: -12px;
@@ -523,16 +526,12 @@ footer ul li {
 
     header ul li a:hover {
         font-size: 50px;
-        margin-left: none;
         border-bottom: solid #f2f2f2 5px;
         padding-bottom: 50px;
-        padding-left: none;
-        padding-right: none;
         border-radius: 0;
         color: #0065FC;
         border-top: none;
         border-bottom: #0065FC solid 5px;
-        padding-top: none;
     }
 
     header p {
@@ -604,14 +603,14 @@ footer ul li {
     }
 
     footer {
-        width: 103%;
+        width: 105%;
         display: flex;
         flex-direction: column;
-        font-size: 30px;
+        font-size: 53px;
     }
 
     .banniere_2 a {
-        min-width: 950px;
+        min-width: 980px;
         min-height: 370px;
         border-radius: 50px;
         border: solid white 7px;
@@ -892,15 +891,18 @@ footer ul li {
         margin-left: -35px;
     }
 
+    footer ul li {
+        width: 750px;
+    }
 }
 
-@media all and (device-width: 1024px) and (device-height: 672px) {
+@media all and (min-width: 1024px) and (max-width: 1400px) {
     #bloc_page {
         width: 1240px;
     }
 
     header ul {
-        margin-left: 700px;
+        margin-left: 650px;
     }
     
     header p {
@@ -914,12 +916,12 @@ footer ul li {
     }
 
     .banniere {
-        width: 180px;
+        width: 200px;
         height: auto;
     }
 
     .cannebiere {
-        width: 173px;
+        width: 193px;
     }
 
     .banniere_2 a {
@@ -948,9 +950,73 @@ footer ul li {
         justify-content: center;
     }
 
+    footer ul li {
+        width: 373px;
+    }
+
 }
 
-@media all and (device-width: 768px) and (device-height: 672px) {
+@media all and (min-width: 1440px) and (max-width: 1480px) {
+    #bloc_page {
+        width: 1440px;
+    }
+
+    header ul {
+        margin-left: 850px;
+    }
+    
+    header p {
+        color: #0065FC;
+        margin-right: 17px;
+    }
+
+    #article {
+        width: 55%;
+        height: auto;
+    }
+
+    .banniere {
+        width: 238px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .cannebiere {
+        width: 230px;
+    }
+
+    .banniere_2 a {
+        width: 387px;
+    }
+
+    aside {
+        padding: 17px;
+    }
+
+    .activites_bloc1, .activites_bloc2, .activites_bloc3 {
+        margin-right: 70px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+    }
+
+    .vieuxport, .pomegues, .frioul, .calanques, .lagarde, .longchamp {
+        width: 282.5px;
+    }
+
+    .vieuxporttext, .pomeguestext, .frioultext, .calanquestext, .lagardetext, .longchamptext {
+        width: 244px;
+    }
+
+    .activites_conteneur {
+        justify-content: center;
+    }
+
+    footer ul li {
+        width: 440px;
+    }
+}
+
+@media all and (min-width: 720px) and (max-width: 896px) {
     #bloc_page {
         width: 1240px;
     }
@@ -1061,9 +1127,14 @@ footer ul li {
     .pomegues {
         height: 184px;
     }
+
+    footer ul li {
+        width: 373px;
+    }
 }
 
-@media all and (device-width: 1280px) and (device-height: 800px) {
+/* (version mac)
+@media all and (min-width: 1280px) and (max-width: 1300px) {
     #bloc_page {
         width: 1240px;
     }
@@ -1121,6 +1192,6 @@ footer ul li {
         width: 102%;
     }
 
-}
+} */
 
 
