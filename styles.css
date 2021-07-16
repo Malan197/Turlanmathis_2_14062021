@@ -1021,13 +1021,57 @@ footer ul li {
         width: 1240px;
     }
 
+    header {
+        font-size: 25px;
+    }
+
+    .logo_reservia {
+        width: 200px;
+        height: auto;
+    }
+
     header ul {
-        margin-left: 700px;
+        margin-left: 400px;
     }
     
     header p {
         color: #0065FC;
         margin-right: 17px;
+    }
+
+    nav h2, p {
+        font-size: 25px;
+    }
+
+    #barre_recherche .fa-map-marker-alt {
+        font-size: 40px;
+    }
+
+    input {
+        padding: 22px 0 21px 10px;
+        font-size: 25px;
+    }
+
+    #search_button {
+        font-size: 25px;
+        padding: 23px 10px 21px 10px;
+    }
+
+    #filtres ul li {
+        font-size: 25px;
+    }
+
+    #filtres ul li a {
+        font-size: 25px;
+    }
+
+    .info p {
+        font-size: 25px;
+    }
+
+    .fa-info {
+        font-size: 25px;
+        padding: 5px 13px 5px 13px;
     }
 
     #article {
@@ -1051,8 +1095,41 @@ footer ul li {
         margin-bottom: 50px;
     }
 
+    .titre_stars {
+        font-size: 25px;
+    }
+
     .banniere_2 a {
-        width: 350px;
+        width: 370px;
+        margin-left: 7px;
+    }
+
+    .banniere_2 h3 {
+        font-size: 22px;
+    }
+
+    .banniere_2 p {
+        font-size: 20px;
+    }
+
+    #article h2 {
+        font-size: 37.5px;
+    }
+
+    .conteneur_hebergements h3 {
+        font-size: 25px;
+    }
+
+    .conteneur_hebergements p {
+        font-size: 20px;
+    }
+
+    .stars_lespluspopulaires { 
+        font-size: 20px;
+    }
+
+    .stars {
+        font-size: 20px;
     }
 
     .titre_stars {
@@ -1100,6 +1177,10 @@ footer ul li {
         margin-left: 30px;
     }
 
+    .activites h2 {
+        font-size: 37.5px;
+    }
+
     .activites_conteneur {
         width: 1180px;
         display: flex;
@@ -1122,6 +1203,7 @@ footer ul li {
 
     .vieuxporttext, .pomeguestext, .frioultext, .calanquestext, .lagardetext, .longchamptext {
         width: 230px;
+        font-size: 19px;
     }
 
     .pomegues {
@@ -1130,6 +1212,7 @@ footer ul li {
 
     footer ul li {
         width: 373px;
+        font-size: 20px;
     }
 }
 
