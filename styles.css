@@ -146,7 +146,6 @@ input {
 
 #filtres .fa-money-bill-wave {
     background-color: #DEEBFF;
-    object-fit: fill;
     color: #0065FC;
     padding: 11px 10px 12px 10px;
     border-radius: 100%;
@@ -254,7 +253,6 @@ a {
 
 aside {
     background-color: #F2F2F2;
-    width: auto;
     height: 100%;
     border-radius: 20px;
     padding: 20px; 
@@ -486,8 +484,7 @@ footer ul li {
 
 @media all and (min-width: 320px) and (max-width :425px) {
     #bloc_page {
-        width: 1155px;
-        margin-left: -12px;
+        width: 1132px;
     }
 
     header {
@@ -496,47 +493,46 @@ footer ul li {
         justify-content: flex-start;
         margin-left: 50px;
         margin-top: 50px;
-        margin-bottom: 100px;
+        margin-bottom: 150px;
     }
 
     header .logo_reservia {
-        width: auto;
+        width: 375px;
         height: auto;
         margin-bottom: 100px;
     }
 
     header ul li a[href="#hebergements"] {
         font-size: 50px;
-        margin-left: -300px;
-        border-bottom: solid #f2f2f2 5px;
+        margin-left: -157px;
+        border-bottom: solid #f2f2f2 8px;
         padding-bottom: 50px;
-        padding-left: 277px;
-        padding-right: 169px;
+        padding-left: 125px;
+        padding-right: 125px;
         border-radius: 0;
     }
 
     header ul li a[href="#activites"] {
         font-size: 50px;
-        border-bottom: solid #f2f2f2 5px;
+        border-bottom: solid #f2f2f2 8px;
         padding-bottom: 50px;
-        padding-left: 197px;
-        padding-right: 157px;
+        padding-left: 204px;
+        padding-right: 204.75px;
         border-radius: 0;
     }
 
     header ul li a:hover {
         font-size: 50px;
-        border-bottom: solid #f2f2f2 5px;
         padding-bottom: 50px;
         border-radius: 0;
         color: #0065FC;
         border-top: none;
-        border-bottom: #0065FC solid 5px;
+        border-bottom: #0065FC solid 8px;
     }
 
     header p {
         font-size: 50px;
-        margin-left: 473px;
+        margin-left: 484px;
         margin-top: 90px;
     }
 
@@ -551,9 +547,13 @@ footer ul li {
     }
 
     .activites {
-        font-size: 60px;
+        margin-left: 57px;
+    }
+
+    .activites h2 {
+        font-size: 65px;
         font-weight: bold;
-        margin-left: 30px;
+        margin-bottom: 100px;
     }
 
     #article {
@@ -561,63 +561,95 @@ footer ul li {
     }
 
     aside {
-        width: 100%;
+        width: 1165px;
+        margin-left: -8px;
         border-radius: 0;
-        margin-right: -40px;
+        margin-bottom: 50px;
     }
 
     aside h2 {
-        font-size: 60px;
+        font-size: 65px;
+        margin-left: 20px;
     }
 
     aside h3 {
-        font-size: 47px;
+        font-size: 51px;
     }
 
     aside p {
-        font-size: 38px;
+        font-size: 43px;
         margin-top: 20px;
+    }
+
+    .titre_stars {
+        margin-bottom: 5px;
     }
 
     .titre_stars i {
         font-size: 70px;
+        padding-right: 45px;
     }
 
     .vieuxport, .pomegues, .frioul, .calanques, .lagarde, .longchamp {
-        width: 950px;
-        height: 450px;
-        border-radius: 50px;
+        width: 1069px;
+        height: 600px;
+        border-radius: 70px;
     }
 
     .vieuxporttext, .pomeguestext, .frioultext, .calanquestext, .lagardetext, .longchamptext {
         font-size: 50px;
-        width: 870px;
-        padding: 40px;
-        border-radius: 0 0 50px 50px;
-        box-shadow: #cecece 0 0 30px;
+        width: 959px;
+        padding: 55px;
+        border-radius: 0 0 70px 70px;
     }
 
     .activites_bloc1, .activites_bloc2, .activites_bloc3, .activites_bloc4 {
         margin-right: 0px;
         border-radius: 90%;
+        margin-bottom: 80px;
     }
 
     footer {
         width: 105%;
         display: flex;
         flex-direction: column;
-        font-size: 53px;
+    }
+
+    #a_propos {
+        font-size: 40px;
+        padding-top: 100px;
+        padding-left: 30px;
+        margin-bottom: -80px;
+    }
+
+    #nos_hebergements {
+        font-size: 40px;
+        padding-top: 100px;
+        padding-left: 30px;
+        margin-bottom: -80px;
+    }
+
+    #assistance {
+        font-size: 40px;
+        padding-top: 100px;
+        padding-left: 30px;
+        margin-bottom: 100px;
+    }
+
+    footer ul li a {
+        font-size: 45px;
     }
 
     .banniere_2 a {
-        min-width: 980px;
+        width: 1055px;
         min-height: 370px;
         border-radius: 50px;
         border: solid white 7px;
     }
 
     .banniere_2 {
-        margin-bottom: -15px;
+        margin-bottom: -10px;
+        padding: 0 48px 0 48px;
     }
 
     .conteneur_lespluspopulaires {
@@ -625,17 +657,17 @@ footer ul li {
     }
     
     .populaire {
-        height: 370px;
-        width: 370px;
+        height: 410px;
+        width: 405px;
         border-radius: 50px 0 0 50px;
     }
 
     #article a h3 {
-        font-size: 47px;
+        font-size: 51px;
     }
 
     .stars_lespluspopulaires {
-        font-size: 35px;
+        font-size: 40px;
         margin-bottom: 20px;
     }
 
@@ -644,7 +676,7 @@ footer ul li {
     }
 
     .nom_prix {
-        width: 400px;
+        width: 554px;
     }
 
     #article {
@@ -653,33 +685,33 @@ footer ul li {
     }
 
     #article h2 {
-        font-size: 60px;
+        font-size: 65px;
     }
 
     .banniere {
-        min-width: 850px;
-        margin-left: -40px;
+        margin-left: -25px;
         border: solid white 7px;
         border-radius: 50px;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
 
     .cannebiere {
-        width: 950px;
-        height: 330px;
+        width: 1049px;
+        height: 360px;
         border-radius: 50px 50px 0 0;
     }
 
     .prix p {
         margin-top: -30px;
-        font-size: 38px;
+        font-size: 43px;
         padding-bottom: 20px;
         margin-left: 17px;
     }
 
     .stars {
-        font-size: 35px;
+        font-size: 40px;
         margin-left: 30px;
+        margin-top: -50px;
     }
 
     .nom_hebergement {
@@ -700,7 +732,7 @@ footer ul li {
     }
 
     nav .info p {
-        font-size: 45px;
+        font-size: 50px;
         margin-left: 20px;
     }
 
@@ -714,25 +746,25 @@ footer ul li {
     }
 
     #filtres ul li {
-        font-size: 45px;
+        font-size: 59px;
         margin-left: 20px;
         margin-bottom: 90px;
     }
 
     .filtresp {
-        margin-bottom: -30px;
+        margin-bottom: -70px;
     }
 
     #filtres ul li a {
         font-size: 50px;
-        padding: 35px;
+        padding: 40px 75px 40px 35px;
         border-radius: 100px;
         margin-bottom: 90px;
     }
 
     .fa-map-marker-alt {
-        font-size: 45px;
-        padding: 40px;
+        font-size: 50px;
+        padding: 50px;
         border-radius: 50px 0 0 50px;
         padding-left: 50px;
         padding-right: 50px;
@@ -748,9 +780,8 @@ footer ul li {
         border-left: none;
         border-right: none;
         padding-left: 40px;
-        font-size: 50px;
+        font-size: 59px;
         background-color: white;
-        padding-right: 40px;
     }
 
     #filtres ul {
@@ -764,23 +795,25 @@ footer ul li {
     #barre_recherche .fa-search {
         display: initial;
         background-color: #0065FC;
-        padding: 45px;
-        font-size: 45px;
+        padding: 50px;
+        font-size: 50px;
         border-radius: 40px;
+        margin-left: -21px;
+    }
+
+    #barre_recherche {
+        margin-bottom: 100px;
     }
 
     nav h2 {
         margin-left: 50px;
-        font-size: 53px;
+        font-size: 71px;
     }
 
     nav p {
         margin-left: 50px;
-        font-size: 35px;
-    }
-
-    nav h2, p {
-        max-width: 90%;
+        font-size: 51px;
+        margin-bottom: 130px;
     }
 
     .headerlogo {
@@ -826,9 +859,10 @@ footer ul li {
     }
 
     h4 {
-        font-size: 50px;
+        font-size: 60px;
         font-weight: bold;
         padding-top: 50px;
+        margin-left: -20px;
     }
 
     section {
@@ -853,22 +887,21 @@ footer ul li {
 
     #filtres .fa-money-bill-wave {
         background-color: #DEEBFF;
-        object-fit: fill;
         color: #0065FC;
-        padding: 36px 28px 40px 28px;
+        padding: 36px 34px 40px 34px;
         border-radius: 100%;
-        margin-right: 10px;
-        margin-left: -35px;
+        margin-right: 40px;
+        margin-left: -42px;
     }
     
     #filtres .fa-child {
         background-color: #DEEBFF;
-        object-fit: fill;
         color: #0065FC;
-        padding: 36px 40px 40px 40px;
+        padding: 36px 45px 40px 45px;
         border-radius: 100%;
-        margin-right: 10px;
-        margin-left: -35px;
+        margin-right: 40px;
+        margin-left: -40px;
+        margin-top: -25px;
     }
     
     #filtres .fa-heart {
@@ -879,6 +912,7 @@ footer ul li {
         border-radius: 100%;
         margin-right: 10px;
         margin-left: -35px;
+        margin-top: -30px;
     }
     
     #filtres .fa-dog {
@@ -889,10 +923,16 @@ footer ul li {
         border-radius: 100%;
         margin-right: 10px;
         margin-left: -35px;
+        margin-top: -30px;
     }
 
     footer ul li {
         width: 750px;
+        margin-bottom: 30px;
+    }
+
+    footer h2 {
+        margin-bottom: 30px;
     }
 }
 
