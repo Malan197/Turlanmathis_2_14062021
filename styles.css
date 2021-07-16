@@ -504,7 +504,7 @@ footer ul li {
 
     header ul li a[href="#hebergements"] {
         font-size: 50px;
-        margin-left: -157px;
+        margin-left: -158px;
         border-bottom: solid #f2f2f2 8px;
         padding-bottom: 50px;
         padding-left: 125px;
@@ -516,8 +516,8 @@ footer ul li {
         font-size: 50px;
         border-bottom: solid #f2f2f2 8px;
         padding-bottom: 50px;
-        padding-left: 204px;
-        padding-right: 204.75px;
+        padding-left: 205px;
+        padding-right: 206.75px;
         border-radius: 0;
     }
 
@@ -561,7 +561,7 @@ footer ul li {
     }
 
     aside {
-        width: 1165px;
+        width: 1167px;
         margin-left: -8px;
         border-radius: 0;
         margin-bottom: 50px;
@@ -610,7 +610,7 @@ footer ul li {
     }
 
     footer {
-        width: 105%;
+        width: 1191px;
         display: flex;
         flex-direction: column;
     }
@@ -772,8 +772,8 @@ footer ul li {
     }
 
     input {
-        padding-top: 32px;
-        padding-bottom: 32px;
+        padding-top: 40px;
+        padding-bottom: 40px;
         font-weight: bold;
         border-top: #f2f2f2 solid 1px;
         border-bottom: #f2f2f2 solid 1px;
@@ -798,7 +798,7 @@ footer ul li {
         padding: 50px;
         font-size: 50px;
         border-radius: 40px;
-        margin-left: -21px;
+        margin-left: -30px;
     }
 
     #barre_recherche {
