@@ -482,7 +482,478 @@ footer ul li {
     display: none;
 }
 
-@media all and (min-width: 320px) and (max-width :425px) {
+@media all and (min-width: 1441px) and (max-width: 1600px) {
+    #bloc_page {
+        font-family: "Raleway", serif, sans-serif;
+        width: auto;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+    
+    ul li {
+        list-style-type: none;
+    }
+    
+    header ul li {
+        font-weight: normal;
+        display: inline-block;
+        color: #0065FC;
+    }
+    
+    header ul {
+        margin-left: 957px;
+    }
+    
+    header p {
+        color: #0065FC;
+        margin-right: 17px;
+    }
+    
+    header a {
+        color: black;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    
+    header a:hover {
+        color: #0065FC;
+        border-top: #0065FC solid;
+        padding-top: 21px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    
+    .logo_reservia {
+        width: 7%;
+        height: 7%;
+    }
+    
+    nav h2{
+        font-size: 22px;
+        margin-bottom: -10px;
+    }
+    
+    .fa-map-marker-alt {
+        background-color: #f2f2f2;
+        border-top: #F2F2F2 solid 1px;
+        border-bottom: #F2F2F2 solid 1px;
+        border-left: #F2F2F2 solid 1px;
+        border-right: none;
+        font-size: 19px;
+        padding: 16px;
+        border-radius: 20px 0 0 20px;
+    
+    }
+    
+    #search_button {
+        background-color: #0065FC;
+        color: white;
+        text-decoration: none;
+        padding: 16.6px 16px 16px 16px;
+        border-radius: 0 20px 20px 0;
+        border-top: #F2F2F2 solid 1px;
+        border-bottom: #F2F2F2 solid 1px;
+        border-left: none;
+        border-right: #F2F2F2 solid 1px;
+        font-weight: bold;
+    }
+    
+    #search_button:hover {
+        background-color: #003f9c;
+    }
+    
+    input {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: bold;
+        border-top: #F2F2F2 solid 1px;
+        border-bottom: #F2F2F2 solid 1px;
+        border-left: none;
+        border-right: #F2F2F2 solid 1px;
+        padding-left: 20px;
+        font-size: 18px;
+        background-color: white;
+    }
+    
+    #barre_recherche {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    
+    #filtres ul li {
+        display: inline-block;
+        margin-right: 20px;
+        margin-left: -35px;
+    }
+    
+    #filtres ul li a {
+        border: solid rgb(201, 201, 201) 1px;
+        border-radius: 20px;
+        padding-top: 8px;
+        padding-bottom: 9px;
+        padding-right: 15px;
+    }
+    
+    #filtres ul li a:hover {
+        background-color: rgb(218, 218, 218);
+    }
+    
+    #filtres {
+        margin-bottom: 50px;
+    }
+    
+    #filtres ul {
+        display: flex;
+        align-items: center;
+    }
+    
+    #filtres .fa-money-bill-wave {
+        background-color: #DEEBFF;
+        color: #0065FC;
+        padding: 11px 10px 12px 10px;
+        border-radius: 100%;
+        margin-right: 10px;
+        margin-left: -2px;
+    }
+    
+    #filtres .fa-child {
+        background-color: #DEEBFF;
+        object-fit: fill;
+        color: #0065FC;
+        padding: 11px 15px 12px 15px;
+        border-radius: 100%;
+        margin-right: 10px;
+        margin-left: -2px;
+    }
+    
+    #filtres .fa-heart {
+        background-color: #DEEBFF;
+        object-fit: fill;
+        color: #0065FC;
+        padding: 11px 15px 12px 15px;
+        border-radius: 100%;
+        margin-right: 10px;
+        margin-left: -2px;
+    }
+    
+    #filtres .fa-dog {
+        background-color: #DEEBFF;
+        object-fit: fill;
+        color: #0065FC;
+        padding: 11px 15px 12px 15px;
+        border-radius: 100%;
+        margin-right: 10px;
+        margin-left: -2px;
+    }
+    
+    a {
+        text-decoration: none;
+        border-radius: 0 0 20px 20px;
+        color: black;
+    }
+    
+    .info {
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .info p {
+        font-size: 17px;
+        margin-left: 7px;
+    }
+    
+    #article {
+        background-color: #F2F2F2;
+        padding: 20px;
+        border-radius: 20px;
+        max-width: 59%;
+        margin-bottom: 30px;
+    }
+    
+    .conteneur_hebergements {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .banniere a {
+        border-radius: 20px;
+        color: black;
+    }
+    
+    .banniere {
+        background-color: white;
+        box-shadow: #cecece 0 0 30px;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .cannebiere {
+        width: 250px;
+        height: 120px;
+        object-fit: cover;
+        border: 3px solid white;
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .nom_hebergement {
+        margin-left: 15px;
+        margin-top: -18px;
+    }
+    
+    .prix {
+        margin-left: 15px;
+        margin-top: -12px;
+    }
+    
+    .stars {
+        margin-left: 15px;
+        margin-top: -8px;
+        padding-bottom: 12px;
+        font-size: 14px;
+    }
+    
+    aside {
+        background-color: #F2F2F2;
+        height: 100%;
+        border-radius: 20px;
+        padding: 20px; 
+    }
+    
+    .conteneur_lespluspopulaires {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .banniere_2 a {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        border-radius: 20px;
+        margin: 20px;
+        box-shadow: #cecece 0 0 30px;
+        margin-bottom: 25px;
+        width: 450px;
+    }
+    
+    .nomprix_stars {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 332.28px;
+    }
+    
+    .stars_lespluspopulaires {
+        margin-left: 15px;
+        margin-bottom: 12px;
+        font-size: 14px;
+    }
+    
+    .populaire {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border: solid white 5px;
+        border-radius: 20px 0 0 20px;
+    }
+    
+    
+    
+    .titre_stars {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: -18px;
+    }
+    
+    .titre_stars i {
+        font-size: 25px;
+        padding-right: 20px;
+    }
+    
+    .nom_prix {
+        color: black;
+        padding-left: 20px;
+    }
+    
+    .nom_prix h3 {
+        margin-bottom: -10px;
+    }
+    
+    section {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    section h2 {
+        font-weight: bold;
+        font-size: 1.5em;
+        padding-left: 30px;
+    }
+    
+    h4 {
+        font-weight: bold;
+        font-size: 1.5em;
+        padding-left: 30px;
+        margin-top: 0px;
+    }
+    
+    footer {
+        background-color: #F2F2F2;
+        display: flex;
+        font-size: 14px;
+        width: 100%;
+        padding-right: 16px;
+        margin-left: -8px;
+        margin-bottom: -8px;
+    }
+    
+    footer ul li a {
+        color: black;
+    }
+    
+    footer ul li {
+        padding-bottom: 10px;
+        width: 472px;
+    }
+    
+     #filtres ul li a {
+        color:black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    #filtres ul li {
+        padding-right: 30px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .fa-star {
+        color: #0065FC;
+    }
+    
+    .fa-info {
+        color: #0065FC;
+        border: rgb(201, 201, 201) solid 1px;
+        padding: 7px 11px 7px 11px;
+        border-radius: 100%;
+        font-size: 13px;
+        margin-right: 5px;
+    }
+    
+    .activites_conteneur {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+    
+    .activites_bloc1, .activites_bloc2, .activites_bloc3 {
+        position: relative;
+        margin-right: 69px;
+        margin-bottom: 50px;
+        box-shadow: rgb(236, 236, 236) 0 0 10px;
+        border-radius: 20px;
+    }
+    
+    .activites_bloc4 {
+        position: relative;
+        margin-bottom: 50px;
+        box-shadow: rgb(236, 236, 236) 0 0 10px;
+        border-radius: 20px;
+    }
+    
+    .vieuxporttext, .pomeguestext, .frioultext, .calanquestext, .lagardetext, .longchamptext {
+        position: absolute;
+        background-color: white;
+        bottom: 0;
+        padding: 20px;
+        font-weight: bold;
+        width: 270px;
+        border-radius: 0 0 20px 20px;
+        color: black;
+    }
+    
+    .vieuxport {
+        width: 310px;
+        height: 461px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: #cecece 0 0 30px;
+    }
+    
+    .pomeguesfrioul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 20px;
+    }
+    
+    .pomegues {
+        width: 310px;
+        height: 240px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: #cecece 0 0 30px;
+    }
+    
+    .frioul {
+        width: 310px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: #cecece 0 0 30px;
+    }
+    
+    .calanques {
+        width: 310px;
+        height: 438px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: #cecece 0 0 30px;
+    }
+    
+    .lagardelongchamp {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 20px;
+    }
+    
+    .lagarde {
+        width: 310px;
+        height: 195px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: #cecece 0 0 30px;
+    }
+    
+    .longchamp {
+        width: 310px;
+        height: 210px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: #cecece 0 0 30px;
+    }
+    
+    #barre_recherche .fa-search {
+        display: none;
+    }
+}
+
+@media all and (min-width: 0px) and (max-width :425px) {
     #bloc_page {
         width: 1140px;
     }
@@ -532,7 +1003,7 @@ footer ul li {
 
     header p {
         font-size: 50px;
-        margin-left: 484px;
+        margin-left: 470px;
         margin-top: 90px;
     }
 
@@ -936,9 +1407,13 @@ footer ul li {
     }
 }
 
-@media all and (min-width: 1024px) and (max-width: 1400px) {
+@media all and (min-width: 769px) and (max-width: 1024px) {
     #bloc_page {
         width: 1240px;
+    }
+
+    #article h3 {
+        font-size: 17px;
     }
 
     header ul {
@@ -970,6 +1445,11 @@ footer ul li {
 
     aside {
         padding: 17px;
+        height: 656px;
+    }
+
+    .nom_prix h3 {
+        font-size: 17px;
     }
 
     .activites_bloc1, .activites_bloc2, .activites_bloc3 {
@@ -996,7 +1476,7 @@ footer ul li {
 
 }
 
-@media all and (min-width: 1440px) and (max-width: 1480px) {
+@media all and (min-width: 1025px) and (max-width: 1440px) {
     #bloc_page {
         width: 1440px;
     }
@@ -1056,7 +1536,7 @@ footer ul li {
     }
 }
 
-@media all and (min-width: 720px) and (max-width: 896px) {
+@media all and (min-width: 426px) and (max-width: 768px) {
     #bloc_page {
         width: 1240px;
     }
@@ -1256,65 +1736,22 @@ footer ul li {
     }
 }
 
-/* (version mac)
-@media all and (min-width: 1280px) and (max-width: 1300px) {
-    #bloc_page {
-        width: 1240px;
-    }
-
+@media all and (min-width: 1601px) and (max-width: 1920px) {
     header ul {
-        margin-left: 700px;
-    }
-    
-    header p {
-        color: #0065FC;
-        margin-right: 17px;
-    }
-
-    #article {
-        width: 55%;
-        height: 659px;
+        margin-left: 1280px;
     }
 
     .banniere {
-        width: 180px;
-        height: auto;
+        margin-right: 50px;
+    }
+}
+
+@media all and (min-width: 1921px) and (max-width: 2560px) {
+    header ul {
+        margin-left: 1880px;
     }
 
-    .cannebiere {
-        width: 173px;
+    .banniere {
+        margin-right: 150px;
     }
-
-    .banniere_2 a {
-        width: 387px;
-    }
-
-    aside {
-        padding: 17px;
-    }
-
-    .activites_bloc1, .activites_bloc2, .activites_bloc3 {
-        margin-right: 20px;
-        margin-bottom: 50px;
-        border-radius: 20px;
-    }
-
-    .vieuxport, .pomegues, .frioul, .calanques, .lagarde, .longchamp {
-        width: 282.5px;
-    }
-
-    .vieuxporttext, .pomeguestext, .frioultext, .calanquestext, .lagardetext, .longchamptext {
-        width: 244px;
-    }
-
-    .activites_conteneur {
-        justify-content: center;
-    }
-
-    footer {
-        width: 102%;
-    }
-
-} */
-
-
+}
